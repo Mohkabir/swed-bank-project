@@ -1,0 +1,177 @@
+.wrapper{
+  margin: 0 auto;
+  width: 90%;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+.primary{
+  color: #F35B1C;
+}
+img{
+  max-width: 100%;
+}
+button{
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  padding: 10px 15px;
+  margin-right: 20px;
+  text-transform: capitalize;
+}
+
+input[type="number"]{
+  width: 100%;
+}
+
+input[type="text"]{
+  width: 100%;
+}
+
+.error{
+  color: red;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.btn_group{
+  padding: 40px 0px;
+}
+.btn_prev{
+  background-color: #EE7023;
+  &:hover{
+    background-color: #b35318;
+  }
+}
+.btn_next{
+  background-color: #31A3AE;
+  &:hover{
+    background-color: #18666d;
+  }
+}
+.logo{
+  width: 150px;
+}
+.menu_bar{
+  width: 20px;
+}
+nav{
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  background-color: white;
+  padding: 20px 20px;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  display: none;
+ li{
+   list-style-type: none;
+ }
+}
+ul{
+  padding: 0;
+  li{
+    list-style-type: none;
+    margin: 10px 0;
+  }
+}
+
+.list_round{
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background-color: #EE7023;
+  border-radius: 80px;
+  margin-right: 10px;
+}
+
+.success{
+  margin: 20px auto;
+  display: block;
+}
+.flex{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.4);
+  li{
+    border-bottom: 1px solid rgba(119, 119, 119, 0.4);
+    margin: 10px 0;
+    padding: 10px 0;
+  }
+}
+.viewNav{
+  display: block;
+}
+.closeNav{
+  display: none;
+}
+
+.summary{
+  background-color: #FBF2EA;
+  padding: 10px;
+}
+@media (min-width: 670px) {
+  .wrapper{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .menu_bar{
+    display: none;
+  }
+  .flex{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box1{
+    width: 50%;
+  }
+  .box2{
+    width: 40%;
+  }
+
+  .closeNav{
+    display: flex;
+  }
+
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+    li{
+      border-bottom: none;
+      margin: 0;
+      padding: 0 10px;
+    }
+  }
+
+  nav{
+    width: 100%;
+    height: initial;
+    padding: 0px ;
+    position: initial;
+   li{
+     margin-left: 10px;
+   }
+  }
+}
