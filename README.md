@@ -10,4 +10,4 @@ go to your command promp or terminal and run npm install
 
 then run npm start.
 
-view live demo @ http://swedbankproject.mohkabir.xyz/ happy coding
+view live demo @ http://projecttwo.mohkabir.xyz/ happy coding
